@@ -1,7 +1,7 @@
-package com.blogapi.controller;
+package com.BlogPost.Controller;
 
-import com.blogapi.model.Comment;
-import com.blogapi.service.CommentService;
+import com.BlogPost.Model.Comment;
+import com.BlogPost.Service.CommentService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,10 +23,6 @@ public class CommentController {
         return commentService.addCommentToPost(postId, comment.getAuthor(), comment.getText());
     }
 
-    @GetMapping
-    public List<Comment> getComments(@PathVariable String postId) {
-        return commentService.getPostById(postId).getComments();
-    }
 
     @DeleteMapping("/{id}")
     public void deleteComment(@PathVariable String id) {

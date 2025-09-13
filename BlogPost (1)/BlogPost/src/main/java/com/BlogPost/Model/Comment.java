@@ -1,4 +1,4 @@
-package com.blogapi.model;
+package com.BlogPost.Model;
 
 import lombok.Data;
 

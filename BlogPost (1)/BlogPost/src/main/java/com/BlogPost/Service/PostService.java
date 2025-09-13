@@ -1,7 +1,7 @@
-package com.blogapi.service;
+package com.BlogPost.Service;
 
-import com.blogapi.model.Post;
-import com.blogapi.model.Comment;
+import com.BlogPost.Model.Post;
+import com.BlogPost.Model.Comment;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;

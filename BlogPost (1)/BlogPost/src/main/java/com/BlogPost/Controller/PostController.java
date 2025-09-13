@@ -1,7 +1,7 @@
-package com.blogapi.controller;
+package com.BlogPost.Controller;
 
-import com.blogapi.model.Post;
-import com.blogapi.service.PostService;
+import com.BlogPost.Model.Post;
+import com.BlogPost.Service.PostService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

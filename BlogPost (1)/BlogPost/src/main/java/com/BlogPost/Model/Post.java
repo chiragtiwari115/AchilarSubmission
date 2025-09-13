@@ -1,6 +1,5 @@
-package com.blogapi.model;
+package com.BlogPost.Model;
 
-import com.BlogPost.Model.Comment;
 import lombok.Data;
 import java.util.List;
 
@@ -10,7 +9,7 @@ public class Post {
     private String title;
     private String content;
     private String createdAt;
-    private List<com.blogapi.model.Comment> comments;  // For cascade delete
+    private List<com.BlogPost.Model.Comment> comments;  // For cascade delete
 
     public Post(String title, String content) {
         this.id = String.valueOf(System.currentTimeMillis());  // Generate unique ID
