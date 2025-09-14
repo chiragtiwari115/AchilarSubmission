@@ -22,4 +22,12 @@ public class Post {
         this.content = content;
         this.createdAt = java.time.Instant.now().toString();
     }
+
+    public List<Comment> getComments() {
+        return comments;
+    }
+
+    public void setComments(List<Comment> comments) {
+        this.comments = comments;
+    }
 }
